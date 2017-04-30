@@ -1,0 +1,23 @@
+body.wp-admin {
+    background: #fdf5ae url('../img/bigvasho.jpg') 0 0 no-repeat;
+    background-size: 100%;
+}
+
+#nadej h1 {
+    color: #fff;
+    margin: 0;
+    padding: 60px 60px 20px;
+    text-shadow: 2px 2px 0 #ff3251, 2px 3px 0 #ffc22f;
+    font-size: 52px;
+    font-family: 'Arial Rounded MT Bold', sans-serif;
+    line-height: 1.2;
+    text-align: center;
+    font-style: italic;
+}
+
+#nadej h1::before {
+    content: '♪';
+    color: #ffc22f;
+    font-style: normal;
+    margin-right: 10px;
+}
